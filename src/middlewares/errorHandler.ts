@@ -21,3 +21,4 @@ export function errorHandler(err: Error, req: Request, res: Response, next: Next
     res.status(500).json({ success: false, message: 'Internal Server Error', error: err.message });
   }
 }
+// Updated on 2026-03-04 13:08:47
